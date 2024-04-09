@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: playground-pod
+spec:
+  containers:
+  - name: playground-container
+    image: peytma/devops_test_image:v1.0
+    ports:
+    - containerPort: 80
